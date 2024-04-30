@@ -23,7 +23,7 @@ jobs:
         uses: NeuraLegion/run-scan@release
         with:
           api_token: ${{ secrets.BRIGHT_TOKEN}}
-          hostname: app.brightsec.com
+          hostname: hotel.playground.brightsec.com
           name: Bright Scan - ${{ github.sha }}
           discovery_types: |
             [ "crawler" ]
