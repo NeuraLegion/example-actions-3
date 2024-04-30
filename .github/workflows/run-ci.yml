@@ -34,7 +34,7 @@ jobs:
         uses: NeuraLegion/wait-for@release
         with:
           api_token:  ${{ secrets.BRIGHT_TOKEN }}
-          hostname: app.brightsec.com
+          hostname: hotel.playground.brightsec.com
           scan: ${{ steps.start.outputs.id }}
           wait_for: high
           code_scanning_alerts: true
